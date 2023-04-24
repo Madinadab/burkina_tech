@@ -28,31 +28,45 @@ body{ margin: 0px; padding: 0px;}
         margin-left: 600px;
     }
     .hlastsection{
-        background-color: darkgoldenrod;
+      
+      background: linear-gradient(180deg,  #ff8d60b8,  #ff8c60);
     }
     .hprocess1{
-    background-color: rgb(17, 81, 190);
+    background-color: #f2f2f2;
     padding-left: 150px;
     padding-top: 100px;
     }
     .hprocess2{
-    background-color: rgb(255, 255, 255);
+    background-color: #FFFF;
     padding-left: 150px;
     padding-top: 100px;
     }
     .hprocess3{
-    background-color: rgb(214, 214, 214);
+    background-color: #f2f2f2;
     padding-left: 150px;
     padding-top: 100px;
     }
     .hprocess4{
-    background-color: rgb(251, 146, 0);
+    background-color: #FFFF;
     padding-left: 150px;
     padding-top: 50px;
     }
     .hmsolution{
         padding: bottom 100px;
     }
-    .section4 .section5 .section6{
-      background-color: linear-gradient( 182, #0072c6,  #0072c6;))
+    .section4 h2{
+      background: linear-gradient(180deg, #0073c669, #0072c6);
+      border: 1px solid #0072c6; width: 100%;
+      padding: 25px 50px; color: white; text-align: center;
     }
+    .section5 h2{
+      background: linear-gradient(180deg, #0073c669, #0072c6);
+      border: 1px solid #0072c6; width: 100%;
+      padding: 25px 50px;  color: white; text-align: center;
+    }
+    .section6 h2{
+      background: linear-gradient(180deg, #0073c669, #0072c6);
+      border: 1px solid #0072c6; width: 100%;
+      padding: 25px 50px; color: white; text-align: center;
+    }
+    .footer{background-color: #002641; color: white; padding: 25px 100px 50px 100px; text-align: center;}
