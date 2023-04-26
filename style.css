@@ -1,12 +1,14 @@
 html{ overflow-x: hidden; overflow-y: auto; width: 100%; height: 100%;}
 body{ margin: 0px; padding: 0px;}
-.container-fluid.main{ position: relative;  padding: 0;} 
+/* .container-fluid.main{ position: relative;  padding: 0;}  */
 .navbar-default { background-image: none; background-color: transparent; border-radius: 0px; border: 0; box-shadow: none; padding: 10px; position: absolute; top: 0; left: 0; right: 0; z-index: 10;}
   /*madina*/
   .header{position: fixed; padding-left: 50px; margin-top: 50px; background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); z-index: 10;}
   .header a{color: white; padding: 25px 25px;}
   .header img{padding-top: 20px;}
-  .section1{background-color: #f2f2f2; color: blue;z-index: 200;}
+  .section1{background-color: #f2f2f2; z-index: 1000; padding: 50px 100px; }
+  .section1 p{ color: #000;padding-top: 20px; font-size: 20px;}
+  .section1 h3{font-size: 40px; padding-top: 20px; color: #ff8c60 ;}
   .section2 {position: relative; bottom: 125px;}
   .section2 h3{position: relative; bottom: 150px; color: white; padding-left: 30px;}
   .m-colone1{border-right: 3px solid #ff8c60;}
@@ -19,17 +21,16 @@ body{ margin: 0px; padding: 0px;}
   .m-colone2 p{ font-size: 15px; width: 350px;font-weight: bold; padding-left: 25px; }
   .section3 h2{border: 1px solid #0072c6; padding: 25px 50px; background-color: #0072c6; color: white; text-align: center;}
     /*  */
-  .hcallicon{
+  /* .hcallicon{
     padding-left: 600px;
     margin-left: 600px;
-    }
-    .hnumero{
+    } */
+    /* .hnumero{
         padding-left: 600px;
         margin-left: 600px;
-    }
-    .hlastsection{
-      
-      background: linear-gradient(180deg,  #ff8d60b8,  #ff8c60);
+    } */
+    .hlastsection{ 
+      background-color: #f2f2f2;
     }
     .hprocess1{
     background-color: #f2f2f2;
@@ -51,9 +52,10 @@ body{ margin: 0px; padding: 0px;}
     padding-left: 150px;
     padding-top: 50px;
     }
-    .hmsolution{
+    .hcontact{color: #ff8c60 ;}
+    /* .hmsolution{
         padding: bottom 100px;
-    }
+    } */
     .section4 h2{
       background: linear-gradient(180deg, #0073c669, #0072c6);
       border: 1px solid #0072c6; width: 100%;
@@ -64,6 +66,9 @@ body{ margin: 0px; padding: 0px;}
       border: 1px solid #0072c6; width: 100%;
       padding: 25px 50px;  color: white; text-align: center;
     }
+    .section3{padding: 50px 100px;}
+    .section4{padding: 50px 100px;}
+    .section5{padding: 50px 100px;}
     .section6 h2{
       background: linear-gradient(180deg, #0073c669, #0072c6);
       border: 1px solid #0072c6; width: 100%;
